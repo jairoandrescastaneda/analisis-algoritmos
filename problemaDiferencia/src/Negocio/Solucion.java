@@ -20,9 +20,10 @@ public class Solucion {
 		
 		int menor = vector[0];
 		int mayor = vector[0];
+		int n = vector.length;
 		
 		
-		for (int i =0;i<vector.length;i++) {
+		for (int i =0;i<n;i++) {
 			
 			if (mayor<vector[i]) {
 				mayor = vector[i];
